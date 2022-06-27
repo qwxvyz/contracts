@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "SenderLogger",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "ValueLogger",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/5.sol": "Transaction"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/5.sol": {
+			"keccak256": "0x06c78eef8f8d44a14c129ec3b67a3987d60f6f1acbd797075d9f6340db3a7838",
+			"urls": [
+				"bzzr://f0109c268b911579a2f648f7773d69e6efdf2ffd2011b3e1c46139d2dd169873"
+			]
+		}
+	},
+	"version": 1
+}

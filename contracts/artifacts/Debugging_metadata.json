@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "storageAlloc",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "assignment",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "memoryAlloc",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/8.sol": "Debugging"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/8.sol": {
+			"keccak256": "0xcc45f624101714b9a91ae268b899d2bc4b0018ff9ffb4165b8ccc41df96ac00f",
+			"urls": [
+				"bzzr://fcb22367b22c03ab7bcbca862d4f164632fa56fdee9985d30bcf12a697e8e125"
+			]
+		}
+	},
+	"version": 1
+}
